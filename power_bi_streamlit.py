@@ -160,14 +160,7 @@ elif st.session_state["page"] == "feedback":
     user_friendly = st.checkbox("The interface is user-friendly & download options for data are useful")
     recommend = st.checkbox("The colors and visuals used are appealing")
 
-    # Email inputs
-    smtp_server = "smtp.office365.com"
-    smtp_port = 587
-    smtp_user = "support@aptpath.in"
-    smtp_password = "kjydtmsbmbqtnydk"
-    sender_email = 'support@aptpath.in'
-    receiver_email = 'harippriyasiva@gmail.com'
-
+   
     
     subject = st.text_input('Name')
     body = st.text_area('Message')
